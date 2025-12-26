@@ -1,0 +1,37 @@
+# General
+.DS_Store
+*.log
+node_modules/
+.env
+
+# MacOS
+.AppleDouble
+.LSOverride
+Icon
+
+# React Native
+.expo/
+dist/
+web-build/
+
+# iOS
+client/ios/Pods/
+client/ios/build/
+client/ios/*.xcworkspace
+!client/ios/*.xcworkspace/contents.xcworkspacedata
+
+# Android
+client/android/app/build/
+client/android/build/
+client/android/local.properties
+client/android/.gradle/
+
+# Server
+server/node_modules/
+server/.env
+server/server.log
+
+# Editors
+.vscode/
+.idea/
+*.swp
